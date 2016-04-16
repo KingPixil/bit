@@ -1,6 +1,6 @@
 {
   "name": "Bit",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "electronVersion": "0.37.1",
   "main": "main.build.js",
   "dependencies": {
