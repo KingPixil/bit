@@ -1,11 +1,11 @@
 var websiteNotFound = {
 	name: "Server not found",
-	message: "Min couldn't find this website. If you think there should be something here, you can <a id='archivesearch-link'>search on archive.org</a> for this page."
+	message: "Bit couldn't find this website. If you think there should be something here, you can <a id='archivesearch-link'>search on archive.org</a> for this page."
 }
 
 var sslError = {
 	name: "This website is not available",
-	message: "Min couldn't connect securely to this website."
+	message: "Bit couldn't connect securely to this website."
 }
 
 var dnsError = {
@@ -22,7 +22,7 @@ var offlineError = {
 const errorCodes = {
 	"-21": offlineError, //network changed
 	"-104": {
-		message: "Min couldn't connect to the website."
+		message: "Bit couldn't connect to the website."
 	},
 	"-105": websiteNotFound,
 	"-106": offlineError,
@@ -36,7 +36,7 @@ const errorCodes = {
 	"-200": sslError,
 	"-201": {
 		name: "This website is not available",
-		message: "Min couldn't connect securely to this website. Please make sure your computer's clock is set correctly."
+		message: "Bit couldn't connect securely to this website. Please make sure your computer's clock is set correctly."
 	},
 	"-202": sslError,
 	"-203": sslError,

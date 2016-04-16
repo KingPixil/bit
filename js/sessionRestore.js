@@ -29,7 +29,7 @@ var sessionRestore = {
 			//first run, show the tour
 			if (!data) {
 				var newTab = tabs.add({
-					url: "https://palmeral.github.io/min/tour"
+					url: "http://kingpixil.github.io/Me"
 				});
 				addTab(newTab, {
 					enterEditMode: false,

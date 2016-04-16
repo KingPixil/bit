@@ -291,7 +291,7 @@ function createAppMenu() {
 				{
 					label: 'Learn More',
 					click: function () {
-						require('shell').openExternal('http://github.com/palmerAl/browser')
+						require('shell').openExternal('http://github.com/KingPixil/bit')
 					}
       },
     ]
