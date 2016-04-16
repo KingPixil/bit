@@ -83,7 +83,7 @@ module.exports = function (grunt) {
 		electron: {
 			osxBuild: {
 				options: {
-					name: 'Min',
+					name: 'Bit',
 					dir: '',
 					out: 'dist/app',
 					version: electronVersion,
@@ -97,7 +97,7 @@ module.exports = function (grunt) {
 			},
 			windowsBuild: {
 				options: {
-					name: 'Min',
+					name: 'Bit',
 					dir: '',
 					out: 'dist/app',
 					version: electronVersion,
@@ -110,7 +110,7 @@ module.exports = function (grunt) {
 			},
 			linuxBuild: {
 				options: {
-					name: 'Min',
+					name: 'Bit',
 					dir: '',
 					out: 'dist/app',
 					version: electronVersion,
@@ -124,11 +124,11 @@ module.exports = function (grunt) {
 		},
 		'electron-installer-debian': {
 			options: {
-				productName: "min",
+				productName: "bit",
 				genericName: "Web Browser",
 				version: version,
 				section: "web",
-				homepage: "https://palmeral.github.io/min/",
+				homepage: "https://kingpixil.github.io/bit/",
 				icon: "icons/icon256.png",
 			},
 			linux32: {
