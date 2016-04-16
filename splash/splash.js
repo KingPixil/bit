@@ -1,13 +1,11 @@
-/* check if Min is available for the user's computer */
+/* check if Bit is available for the user's computer */
 
-var failMessage = "Min requires OS X or Ubuntu";
+var failMessage = "Bit requires OS X or Ubuntu";
 
 var availablePlatforms = ["MacIntel"];
 
 var platforms = {
-	"MacIntel": "https://github.com/PalmerAL/min/releases/download/v1.1.1/Min-v1.1.1-darwin-x64.zip",
-	"Linux i686": "https://github.com/PalmerAL/min/releases/download/v1.1.1/Min_1.1.1_i386.deb",
-	"x86_64": "https://github.com/PalmerAL/min/releases/download/v1.1.1/Min_1.1.1_amd64.deb",
+	"MacIntel": "https://github.com/KingPixil/bit/releases/download/v0.0.0/Min-v0.0.0-darwin-x64.zip"
 }
 
 var downloadButtons = document.getElementsByClassName("download-button");
