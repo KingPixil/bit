@@ -107,44 +107,6 @@ module.exports = function (grunt) {
 					ignore: 'dist/app',
 					overwrite: true,
 				}
-			},
-			linuxBuild: {
-				options: {
-					name: 'Bit',
-					dir: '',
-					out: 'dist/app',
-					version: electronVersion,
-					'app-version': version,
-					platform: 'linux',
-					arch: 'all',
-					ignore: 'dist/app',
-					overwrite: true,
-				}
-			}
-		},
-		'electron-installer-debian': {
-			options: {
-				productName: "bit",
-				genericName: "Web Browser",
-				version: version,
-				section: "web",
-				homepage: "https://kingpixil.github.io/bit/",
-				icon: "icons/icon256.png",
-			},
-			linux32: {
-				options: {
-					arch: 'i386'
-				},
-				src: 'dist/app/Bit-linux-ia32',
-				dest: 'dist/app/linux'
-			},
-
-			linux64: {
-				options: {
-					arch: 'amd64'
-				},
-				src: 'dist/app/Bit-linux-x64',
-				dest: 'dist/app/linux'
 			}
 		}
 	});
